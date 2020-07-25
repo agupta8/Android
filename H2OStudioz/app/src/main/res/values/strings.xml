@@ -1,0 +1,12 @@
+<resources>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_enquiry">Enquiry</string>
+    <string name="title_activity_about_us">About Us</string>
+    <string name="API_KEY">AIzaSyBOT7cQ3dpOY6sv55BS8efVu869sUJNZYE</string>
+    <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
+    <string name="google_android_map_api_key">AIzaSyC1y7xBB9EpxECFub1QOQE3caW84q-C3CU</string>
+
+
+</resources>

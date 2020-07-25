@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:padding="5dp"
+    tools:context="com.example.aman.h2ostudioz.com.example.dance.h2ostudioz.Fragments.GalleryFragment">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/image_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+    <!--<GridView-->
+        <!--android:id="@+id/grid_view"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="fill_parent"-->
+        <!--android:numColumns="auto_fit"-->
+        <!--android:padding="2dp"-->
+        <!--android:columnWidth="70dp"-->
+        <!--android:gravity="center"-->
+        <!--android:stretchMode="columnWidth"-->
+        <!--android:clickable="true">-->
+    <!--</GridView>-->
+
+</RelativeLayout>

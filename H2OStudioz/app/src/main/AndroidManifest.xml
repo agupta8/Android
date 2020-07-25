@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dance.h2ostudioz">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CATEGORY_BROWSABLE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:name=".YouTube.AppController"
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/launcher"
+        android:supportsRtl="true"
+        android:theme="@style/MyMaterialTheme">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_android_map_api_key" />
+
+        <activity android:name="com.dance.h2ostudioz.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.dance.h2ostudioz.Activity.Enquiry"
+            android:label="@string/title_activity_enquiry"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name="com.dance.h2ostudioz.Activity.AboutUs"
+            android:label="@string/title_activity_about_us"
+            android:theme="@style/MyMaterialTheme" />
+        <activity android:name="com.dance.h2ostudioz.Activity.ClanDescription" />
+
+        <activity android:name="com.dance.h2ostudioz.YouTube.YoutubeVideo"
+            android:screenOrientation="landscape"/>
+    </application>
+
+</manifest>
